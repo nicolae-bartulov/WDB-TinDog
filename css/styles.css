@@ -59,7 +59,8 @@ h1 {
 }
 
 .feature-title {
-    font-family: "Montserrat-Bolt", sans-serif;
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: bold;
     font-size: 1.5rem;
 }
 .feature-subtitle {
@@ -73,5 +74,6 @@ h1 {
     color: #fff;
 }
 #features {
+    padding: 7% 15%;
     text-align: center;
 }
