@@ -7,9 +7,23 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat-Black', sans-serif;
 }
 
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+}
+
+.white-section {
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Classes */
+
 .container-fluid {
     padding: 7% 15%;
-
 }
 
 .download-btn {
@@ -74,29 +88,20 @@ h1, h2, h3, h4, h5, h6 {
 
 /************************ID Selectors***************************/
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-    padding-bottom: 3%;
-}
-
 #title .container-fluid {
-    padding: 3% 15% 0;
+    padding: 3% 15% 3%;
+    text-align: left;
 }
 
 #features {
-    text-align: center;
     position: relative;
-    background-color: white;
     z-index: 1;
 }
 
 /* Testimonials Section*/
 
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
-    color: #fff;
 }
 
 .testimonials-image {
@@ -113,7 +118,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 5%;
 }
 
@@ -171,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media(max-width: 1024px) {
 
-    #title {
+    #title .container-fluid {
         text-align: center;
     }
 
@@ -180,16 +184,6 @@ h1, h2, h3, h4, h5, h6 {
         position: static;
     }
     
-}
-
-#cta {
-    background-color: #ef8172;
-    color: #fff;
-    text-align: center;
-}
-
-#footer {
-    text-align: center;
 }
 
 .social-icon {
