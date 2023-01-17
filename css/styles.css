@@ -137,18 +137,19 @@ h1, h2, h3, h4, h5, h6 {
 .card {
       margin: 2rem 1rem 2rem 1rem;
       text-align: center;
+      border: solid 1px;
 }
 
 .card-header {
-    background-color: #e3bdb8;
+    background-color: #ef8172;
 }
 
 .card-body {
-    background-color: #eedfdd;
+    background-color: #fff;
 }
 
 .card-footer {
-    background-color: #e3bdb8;
+    background-color: #fff;
     border-top: 0;
 }
 /*Pricing */
